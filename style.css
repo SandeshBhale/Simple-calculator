@@ -1,0 +1,64 @@
+body {
+	background-color: rgba(25, 179, 218, 0.925);
+	font-family: sans-serif;
+}
+
+h1{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 12rem;
+}
+
+.textview{
+    display: inline-block;
+	margin: 2px;
+	width: 198px;
+	height: 29px;
+	font-size: 20px;
+    font-weight: bold;
+	border: 5px;
+}
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height:91px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+  
+}
+
+.allclearButton {
+    border-radius: 10px;
+    margin: 2px;
+	width: 42px;
+	height: 42px;
+	outline: none;
+    font-weight: bold;
+}
+
+.container{
+	    position: absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%);
+		border-radius: 5px;
+		border-color: red;	
+}
